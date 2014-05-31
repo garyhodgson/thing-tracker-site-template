@@ -5,7 +5,7 @@ A template for a simple single page web application which presents information f
 ## Usage
 
 * Clone or copy this project.
-* Modify the contents of `tracker.json` adding meta-data about your Things.  Most attributes are self-explanatory, and most are optional so if something is not needed it can usually be deleted.
+* Modify the contents of `tracker.json` adding meta-data about your Things.  Most attributes are self-explanatory, and most are optional so if something is not needed it can usually be deleted. See the [specification](https://github.com/garyhodgson/thing-tracker-network) for details, and feel free to ask in the [community](http://bit.ly/ttn-g-plus-community) for advice.
 * It is recommended to add thumbnail images in the `thumbnails` folder so they are loaded locally to the website.  These can be referenced in the tracker directly, e.g.
 ```
 	"thumbnailUrls":[
