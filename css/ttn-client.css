@@ -1,0 +1,115 @@
+body {
+  background: #e3edf9; /* Old browsers */
+  background: -moz-linear-gradient(left,  #e3edf9 0%, #ffffff 15%, #ffffff 85%, #e3edf9 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#e3edf9), color-stop(15%,#ffffff), color-stop(85%,#ffffff), color-stop(100%,#e3edf9)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #e3edf9 0%,#ffffff 15%,#ffffff 85%,#e3edf9 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #e3edf9 0%,#ffffff 15%,#ffffff 85%,#e3edf9 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #e3edf9 0%,#ffffff 15%,#ffffff 85%,#e3edf9 100%); /* IE10+ */
+  background: linear-gradient(to right,  #e3edf9 0%,#ffffff 15%,#ffffff 85%,#e3edf9 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3edf9', endColorstr='#e3edf9',GradientType=1 ); /* IE6-9 */
+}
+html, body {
+  height: 100%;
+}
+
+/* Sticky Footer Begin */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -30px;
+}
+
+/* Set the fixed height of the footer here */
+#push, #footer {
+  height: 30px;
+}
+
+#footer {
+  background-color: #f5f5f5;
+}
+
+#footerlink {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+/* Sticky Footer End */
+
+.thing-list img {
+  margin-top: 12px;
+}
+
+.thing-list li {
+  list-style: none;
+}
+
+#stlviewer {
+  width: 100%;
+  min-height: 300px;
+  border: 1px solid grey;
+  margin-bottom: 10px;
+}
+
+.imgfile {
+  width: 100px;
+}
+
+#description {
+  padding: 5px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed grey;
+}
+
+.meta {
+  padding-top: 7px;
+  border-bottom: 1px dashed grey;
+}
+
+.lists {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+
+.list-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #E6E6FA;
+}
+
+#sources-section {
+  max-height: 800px;
+  overflow: auto;
+}
+
+#stls-section {
+  max-height: 800px;
+  overflow: auto;
+}
+
+#lead-image-container {
+  margin: 5px;
+}
+
+.nav, .pagination, .carousel a { cursor: pointer; }
+
+#message-log {
+  width: 100%;
+}
+
+.info_bar .popover-inner {
+  font-size: 10px;
+}
+
+#bomTable #unit {
+  width: 30px;
+}
+
+#bomTable #quantity {
+  width: 30px;
+}
+
+#bomTable #partNumber {
+  width: 30px;
+}

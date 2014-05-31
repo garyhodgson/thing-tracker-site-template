@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html ng-app="TTNRelay">
+
+  <head>
+    <title>{{ appTitle }}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="img/trayicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/vendor/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/ttn-client.css" />
+
+  </head>
+
+  <body ng-controller="AppCtrl">
+
+    <div id="wrap">
+
+      <div class="navbar">
+        <div class="navbar-inner">
+          <a class="brand" href="#"><img src="img/app.png" width="22">&nbsp;{{ appTitle }}</a>
+        </div>
+      </div>
+
+      <div class="container">
+        <ng-view></ng-view>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div id="footerlink"><small  class="muted">A part of the <a href="http://thingtracker.net" target="_blank">Thing Tracker Network</a></small></div>
+    </div>
+
+    <script src="js/vendor/angular-1.2.9.min.js"></script>
+    <script src="js/vendor/angular-route-1.2.9.min.js"></script>
+    <script src="js/vendor/angular-sanitize-1.2.9.min.js"></script>
+    <script src="js/vendor/ui-bootstrap-tpls-0.6.0.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+
+</html>

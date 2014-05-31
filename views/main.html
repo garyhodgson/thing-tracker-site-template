@@ -1,0 +1,18 @@
+<div class="row-fluid">
+
+    <ul class="thing-list">
+      <li ng-repeat="thing in thingsSummary track by $index">
+        <div class="span2">
+          <a href="#/thing/{{ thing.id }}">
+            <img class="thumbnail" width="120" ng-show="thing.thumbnailURL" ng-src="{{ thing.thumbnailURL }}">
+          </a>
+        </div>
+        <div class="span10">
+          <h4><a href="#/thing/{{ thing.id }}">{{ thing.title }}</a></h4>
+          <p ng-bind-html="thing.description | nl2br"></p>
+          <hr>
+        </div>
+      </li>
+    </ul>
+
+</div>

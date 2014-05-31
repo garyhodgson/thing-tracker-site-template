@@ -1,0 +1,241 @@
+{
+   "url":"http://garyhodgson.com/thingtracker",
+   "description":"An example Thing Tracker.",
+   "maintainers":[
+      {
+         "name":"Gary Hodgson",
+         "url":"http://garyhodgson.com/reprap",
+         "email":"contact@garyhodgson.com"
+      }
+   ],
+   "things":[
+      {
+         "id":"48aad9ec08ceee2cfd5b93ebb614e9d9a3f02ffd",
+         "title":"Strandbeest",
+         "url":"https://github.com/garyhodgson/strandbeest",
+         "downloadUrl": "https://github.com/garyhodgson/strandbeest/zipball/master",
+         "authors":[
+            {
+               "name":"Gary Hodgson",
+               "url":"http://garyhodgson.com/reprap",
+               "email":"contact@garyhodgson.com"
+            }
+         ],
+         "licenses":[
+            "GPL3"
+         ],
+         "tags":[
+            "mechanical movement",
+            "fun"
+         ],
+         "thumbnailUrls":[
+            "thumbnails/48aad9ec08ceee2cfd5b93ebb614e9d9a3f02ffd/48aad9ec08ceee2cfd5b93ebb614e9d9a3f02ffd.png",
+            "thumbnails/48aad9ec08ceee2cfd5b93ebb614e9d9a3f02ffd/printed-pair.jpg"
+         ],
+         "description":"Work in Progress!!\\n\\nMy take on implementing Theo Jansen's Strandbeest on a 3D printer.\\n\\nUsing the \"Theo Jansen Linkage 11 holy numbers\" together with the top j strut as a reference point use the ratio to determine lengths See: http://www.strandbeest.com/beests_leg.php and http://www.instructables.com/community/theo-jansen-mechanism-1/",
+         "billOfMaterials":[
+            {
+               "partNumber":"1",
+               "description":"strandbeest.scad",
+               "url":"https://github.com/garyhodgson/strandbeest/blob/master/src/strandbeest.scad",
+               "type":"source",
+               "mimetype":"application/x-scad"
+            },
+            {
+               "partNumber":"2",
+               "description":"strandbeest_body.j25.stl",
+               "url":"https://github.com/garyhodgson/strandbeest/raw/master/stl/strandbeest_body.j25.stl",
+               "type":"generated",
+               "mimetype":"application/sla"
+            },
+            {
+               "partNumber":"3",
+               "description":"strandbeest_set_1_leg.j25.stl",
+               "url":"https://github.com/garyhodgson/strandbeest/raw/master/stl/strandbeest_set_1_leg.j25.stl",
+               "type":"generated",
+               "mimetype":"application/sla"
+            }
+         ]
+      },
+      {
+         "id":"7df261f7ecf13a54fe26880c09221c31872300b0",
+         "title":"9-Pin D-Sub Housing",
+         "url":"http://www.thingiverse.com/thing:10456",
+         "authors":[
+            {
+               "name":"Gary Hodgson",
+               "url":"http://www.thingiverse.com/garyhodgson"
+            }
+         ],
+         "licenses":[
+            "Public Domain"
+         ],
+         "thumbnailUrls":[
+            "thumbnails/7df261f7ecf13a54fe26880c09221c31872300b0/20110731-DSC04539_preview_featured.jpg"
+         ],
+         "description":"Probably not used very much these days, but I had a pile of 9-pin D-Subminiature connectors and decided to use them to hook up the stepper motors on my experimental Reprap.\n\nThis part was made with Tinkercad. Edit the part online at: tinkercad.com/p/acc01949ab39ba6f",
+         "categories":[
+            "parts"
+         ],
+         "tags":[
+            "connector", "d-sub", "housing", "9-pin"
+         ],
+         "relationships":[
+            {
+               "type":"reference",
+               "url":"http://507movements.com/mm_027.html"
+            }
+         ],
+         "billOfMaterials":[
+            {
+               "partNumber":"1",
+               "description":"9-PinD-SubHousing.stl",
+               "url":"http://www.thingiverse.com/download:33072",
+               "type":"generated",
+               "mimetype":"application/sla",
+               "thumbnailUrl":"thumbnails/7df261f7ecf13a54fe26880c09221c31872300b0/20110731-DSC04539_preview_featured.jpg"
+            }
+         ],
+         "instructions":[
+            {
+               "step":1,
+               "text":"Print out 2 copies"
+            },
+            {
+               "step":2,
+               "text":"Fit the D-Sub Connector front shield into the gap at the front of each part. It's a reasonably tight fit, but it should get in there."
+            },
+            {
+               "step":3,
+               "text":"Fasten with two M3x16mm bolts (without nuts) or two M3x20mm (with nuts). I found the 16mm bolts could be used without nuts, but if the holes come out larger on your print they may require them."
+            }
+         ]
+      },
+      {
+         "id":"751d7eb3619fa7dcc8d04b2e7a1f0203c459bffa",
+         "title":"Mechanical Movement #27",
+         "url":"https://github.com/garyhodgson/mechanical-movement-27",
+         "authors":[
+            {
+               "name":"Gary Hodgson",
+               "url":"https://github.com/garyhodgson"
+            }
+         ],
+         "licenses":[
+            "GPL3"
+         ],
+         "thumbnailUrls":[
+            "thumbnails/751d7eb3619fa7dcc8d04b2e7a1f0203c459bffa/assembly.png",
+            "thumbnails/751d7eb3619fa7dcc8d04b2e7a1f0203c459bffa/detail.png",
+            "thumbnails/751d7eb3619fa7dcc8d04b2e7a1f0203c459bffa/frame.png",
+            "thumbnails/751d7eb3619fa7dcc8d04b2e7a1f0203c459bffa/small_wheel.png",
+            "thumbnails/751d7eb3619fa7dcc8d04b2e7a1f0203c459bffa/test-jig.jpg",
+            "thumbnails/751d7eb3619fa7dcc8d04b2e7a1f0203c459bffa/wheel.png"
+         ],
+         "description":"An implementation of movement #27 from \"507 Mechanical Movements\" by Henry T. Brown.\\n\\nThis is still a work in progress.",
+         "subject":[
+            "mechanism"
+         ],
+         "media":[
+            "PLA"
+         ],
+         "categories":[
+            "mechanical movement"
+         ],
+         "tags":[
+            "fun"
+         ],
+         "relationships":[
+            {
+               "type":"reference",
+               "url":"http://507movements.com/mm_027.html"
+            }
+         ],
+         "billOfMaterials":[
+            {
+               "partNumber":"1",
+               "description":"Frame",
+               "url":"https://github.com/garyhodgson/mechanical-movement-27/raw/master/stl/MechanicalMovement27_frame.stl",
+               "type":"generated",
+               "mimetype":"application/sla",
+               "thumbnailUrl":"thumbnails/751d7eb3619fa7dcc8d04b2e7a1f0203c459bffa/frame.png",
+               "xBOMMetadata":{
+                  "note":"This part has not yet been tested."
+               }
+            },
+            {
+               "partNumber":"3",
+               "description":"Wheel",
+               "url":"https://github.com/garyhodgson/mechanical-movement-27/raw/master/stl/MechanicalMovement27_wheel.stl",
+               "type":"generated",
+               "mimetype":"application/sla",
+               "thumbnailUrl":"thumbnails/751d7eb3619fa7dcc8d04b2e7a1f0203c459bffa/wheel.png"
+            },
+            {
+               "partNumber":"2",
+               "description":"Small Wheel",
+               "url":"https://github.com/garyhodgson/mechanical-movement-27/raw/master/stl/MechanicalMovement27_small_wheel.stl",
+               "type":"generated",
+               "mimetype":"application/sla",
+               "thumbnailUrl":"thumbnails/751d7eb3619fa7dcc8d04b2e7a1f0203c459bffa/small_wheel.png"
+            },
+            {
+               "partNumber":"4",
+               "description":"OpenSCAD Source Code",
+               "url":"https://github.com/garyhodgson/mechanical-movement-27/raw/master/src/MechanicalMovement27.scad",
+               "type":"source",
+               "mimetype":"application/x-scad"
+            },
+            {
+               "partNumber":"5",
+               "description":"623ZZ Bearing",
+               "unit":"EA",
+               "quantity":3
+            },
+            {
+               "partNumber":"6",
+               "description":"M3 Bolt",
+               "unit":"EA",
+               "quantity":3
+            },
+            {
+               "partNumber":"7",
+               "description":"M4 Bolt",
+               "unit":"EA",
+               "quantity":1
+            },
+            {
+               "partNumber":"8",
+               "description":"M5 Bolt",
+               "unit":"EA",
+               "quantity":1
+            }
+         ],
+         "instructions":[
+            {
+               "step":1,
+               "text":"Print out the Frame, Small Wheel and Large Wheel.",
+               "images":[
+                  "thumbnails/751d7eb3619fa7dcc8d04b2e7a1f0203c459bffa/frame.png",
+                  "thumbnails/751d7eb3619fa7dcc8d04b2e7a1f0203c459bffa/wheel.png",
+                  "thumbnails/751d7eb3619fa7dcc8d04b2e7a1f0203c459bffa/small_wheel.png"
+               ]
+            },
+            {
+               "step":2,
+               "text":"Attach three 623ZZ bearings to the small wheel with the short M3 bolts."
+            },
+            {
+               "step":3,
+               "text":"Connect the small and large wheel to the frame with an M4 and M5 bolt respectively.",
+               "images":[
+                  "thumbnails/751d7eb3619fa7dcc8d04b2e7a1f0203c459bffa/test-jig.jpg"
+               ],
+               "xInstructionMetadata":{
+                  "note":"So far the wheels have been printed and tested, but not yet the frame. This is shown in the attached image."
+               }
+            }
+         ]
+      }
+   ]
+}

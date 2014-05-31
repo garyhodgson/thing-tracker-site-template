@@ -1,10 +1,8 @@
-# Intro
-
-A template for a simple single page web application which presents information from a [Thing Tracker](http://thingtracker.net) Tracker file.
+A template for a simple single page web application which presents information from a [Thing Tracker](http://thingtracker.net) file.
 
 [Demonstration Site](https://garyhodgson.github.io/thing-tracker-site-template)
 
-# Usage
+## Usage
 
 * Clone or copy this project.
 * Modify the contents of `tracker.json` adding meta-data about your Things.  Most attributes are self-explanatory, and most are optional so if something is not needed it can usually be deleted.
